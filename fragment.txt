@@ -1,0 +1,48 @@
+I can provide you with a step-by-step guide on how to create a static HTML website using your Azure account. Here's a simple outline of what to include in the text file:
+
+How to Create a Static HTML Website on Azure
+Step 1: Set Up Your Azure Account
+
+1. Go to the Azure Portal.
+2. Sign in or create a new Azure account.
+
+Step 2: Create a New Resource
+
+1. In the Azure Portal, click on “Create a resource” in the left sidebar.
+2. Search for "Storage account" and select it.
+3. Click on the “Create” button.
+
+Step 3: Configure Storage Account
+
+1. Specify the following:
+
+. Subscription: Choose your subscription.
+. Resource Group: Create a new resource group or select an existing one.
+. Storage account name: Unique name for your storage account.
+'Region: Choose a region close to you.
+. Performance: Choose Standard.
+. Replication: Choose the appropriate replication option.
+
+
+2. Click “Review + create” and then “Create”.
+
+Step 4: Create a Static Website
+
+1. In your newly created storage account, go to the “Static website” option under the Settings menu.
+2. Click on the “Enable” checkbox.
+3. Set the index document name (e.g., index.html) and error document path (e.g., 404.html).
+4. Click “Save”.
+
+Step 5: Upload Your HTML Files
+
+1. Go to the “Containers” section of your storage account.
+2. Open the $web container.
+3. Click on the “Upload” button to upload your HTML files (e.g., index.html, 404.html).
+
+Step 6: Access Your Website
+
+1. Once the files are uploaded, you can access your website using the primary web endpoint provided in the Static website section.
+2. Copy the URL, and paste it in your web browser to view your static website.
+
+Conclusion
+You have successfully created a static HTML website using your Azure account!
